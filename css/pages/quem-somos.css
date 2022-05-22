@@ -1,0 +1,49 @@
+@import url('../styles.css');
+
+#header.page-quem-somos {
+    background-image: url("../../images/background-quem-somos.jpg") ;
+}
+
+#intro h2, #valores h2 {
+    font-size: 20px;
+}
+
+#intro h2 {
+    text-align: left;
+}
+
+#intro h2:after {
+    margin: 5px 0 0 0;
+}
+
+#valores {
+    background-color: #f3f0e7;
+}
+
+#valores h2 {
+    margin-top: 20px;
+}
+
+.container row {
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+
+#valores h2:after {
+    display: none;
+}
+
+#img-box row {
+    max-width: 100px;
+    max-height:150px;
+    height: auto;
+    width: auto;
+}
+
+@media (max-width: 991px) {
+    #img-box {
+        text-align: center;
+    }
+}
